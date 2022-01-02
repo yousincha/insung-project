@@ -17,7 +17,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="resources/css/styles.css" rel="stylesheet" />
     </head>
-
+<body>
+	
+		<a href="http://localhost:8080/ap/resources/code/logout.jsp"> 로그아웃 </A>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-warning text-uppercase fixed-top" id="mainNav">
             <div class="container">
@@ -36,18 +38,21 @@
                 </div>
             </div>
         </nav>
+      
         <!-- Masthead-->
         <header class="masthead  text-black text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="resources/assets/img/sun.png" alt="..." />
                 <!-- Masthead Heading-->
+
                 <h1>"안녕하세요 전 새해예요"</h1>
                 <br><br>
                 <!-- Masthead Subheading-->
                 <h5>"새해 인사를 건네주세요!"</h5>
             </div>
         </header>
+      
         <!-- login Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -116,8 +121,9 @@
 		<br>
         <a href="https://mail.google.com/mail"><img src="resources/assets/img/mail.png" width="100dp" height="100dp" /></a>
 		<a href="https://youtu.be/oxRDWw3dq7Q"><img src="resources/assets/img/youtube.png" width="100dp" height="100dp" /></a>
-        <a href="tel:010-0000-0000"><img src="resources/assets/img/phone.png" width="100dp" height="100dp" /></a>
         <a href="https://open.kakao.com/o/svuclxRd"><img src="resources/assets/img/kakao.png" width="100dp" height="100dp" /></a>
+                <a href="https://github.com/yousincha/insung-project"><img src="resources/assets/img/github.png" width="100dp" height="100dp" /></a>
+        
                 </div></div>
         </section>  
         <!-- Copyright Section-->

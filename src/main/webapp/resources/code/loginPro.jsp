@@ -24,7 +24,7 @@
          String rId=rs.getString("id");
          String rPasswd=rs.getString("passwd");
          if(id.equals(rId)&&passwd.equals(rPasswd)) {
-        	 response.sendRedirect("http://localhost:8080/ap/resources/code/loginResult.jsp");        
+        	 response.sendRedirect("http://localhost:8080/ap");        
         	 }else
             out.println("패스워드가 틀렸습니다.");
           
@@ -41,6 +41,5 @@
 <title></title>
 </head>
 <body>
-
 </body>
 </html>
